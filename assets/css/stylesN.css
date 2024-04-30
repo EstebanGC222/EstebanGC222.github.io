@@ -1,0 +1,65 @@
+/* Estilos Generales */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 25px;
+    color: #4d2918;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado */
+.encabezado {
+    background-color: #442a19;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.encabezado__titulo {
+    margin: 0;
+    font-size: 40px;
+}
+
+/* Contenido Principal */
+.contenido-principal {
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.contenido-principal__titulo {
+    color: #35424a;
+    margin-bottom: 10px;
+}
+
+.contenido-principal__descripcion,
+.contenido-principal__detalle,
+.contenido-principal__conclusion {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contenido-principal__imagen {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+/* Pie de Página */
+.pie-pagina {
+    background-color: #4e3b29;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
+
+.pie-pagina__titulo,
+.pie-pagina__correo,
+.pie-pagina__telefono {
+    margin: 5px;
+}
+
+
